@@ -1,0 +1,8 @@
+{
+  // Pinning this stops Workers Builds running `astro add cloudflare` and
+  // rewriting astro.config.mjs inside the build container.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gurgin-redirect",
+  "compatibility_date": "2026-10-03",
+  "compatibility_flags": ["nodejs_compat"]
+}
